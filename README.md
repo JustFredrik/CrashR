@@ -14,13 +14,11 @@ CrashR is a lightweight GameMaker library designed to override the default uncau
 
 **Step 4:** In this new view select **Add All** And then **OK**, you should now have a new directory in your GameMaker project called 'CrashR'.
 
-**Step 5:** Go into the file `CrashR/CRSAHR_CONFIG` in your project directory and in this config file change the `CRASHR_DATABASE_ADRESS` macro to the address of your own database (Note that the default configuration of CrashR requires that the database allows for anyone to POST without authentication, if you wish to add support for authentication you will have to do so yourself).
+**Step 5:** Go into the file `CrashR/CRSAHR_CONFIG` in your project directory and in this config file change the `CRASHR_DATABASE_ADRESS` macro to the address of your own database. (Note that the default configuration of CrashR requires that the database allows for anyone to POST without authentication, if you wish to add support for authentication you will have to do so yourself.)
 
-**Step 6:** Go into the file `CrashR/CRSAHR_CONFIG` in your project directory and in this config file change the `CRASHR_DATABASE_ADRESS` macro to the address of your own database.
+**Step 6:** Done! Crasher will now store crash reports to players local systems! (by default under %localappdata&/GAME_NAME/crash_reports) If you wish to upload files to your remote database see Step 7.
 
-**Step 7:** Done! Crasher will now store crash reports to players local systems! (by default under %localappdata&/GAME_NAME/crash_reports) If you wish to upload files to your remote database see Step 8.
-
-**Step 8 (optional):** by calling the function `crashr_upload_reports()` at any point from anywhere during runtime, CrashR will try to upload any and all crash reports to the remote database that has not been uploaded yet.
+**Step 7 (optional):** by calling the function `crashr_upload_reports()` at any point from anywhere during runtime, CrashR will try to upload any and all crash reports to the remote database that has not been uploaded yet.
 
 # Overview
 
