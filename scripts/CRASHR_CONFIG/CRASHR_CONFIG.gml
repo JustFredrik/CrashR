@@ -1,12 +1,15 @@
 /*
 CRASHR v 0.1
+
+Change macros and the function at the bottom of this file to configure your CrashR expereince.
+If you wish to do more changes you can dive into the scr_crashr file.
  */
  
 // Base address to post crash reports to.
-#macro CRASHR_DATABASE_ADRESS ("https://gamemakercrashreportdemo-default-rtdb.europe-west1.firebasedatabase.app/")
+#macro CRASHR_DATABASE_ADRESS ("https://sampledatabase.databasewebsiteaddress.app/")
 
 // Default Crash Message shown to Players when the game crashes.
-#macro CRASHR_REPORT_MESSAGE ("The game has run into an unexpected error and will now exit.\nCause of Crash: " + string(exception.message))
+#macro CRASHR_REPORT_MESSAGE ("The game has run into an unexpected error and will now exit.\n\n### Cause of Crash ###\n " + string(exception.message))
 
 // Subdirectory path to POST the reports to
 #macro CRASHR_TARGET_DATABASE_DIRECTORY ( CRASHR_LOCAL_FILE_NAME  + ".json")
@@ -58,3 +61,4 @@ function crashr_generate_report(_exception){
 		"crash_data": _exception
 	}
 }
+	
