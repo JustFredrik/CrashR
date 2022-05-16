@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CrashR",
-    "path": "folders/CrashR.yy",
+    "name": "CrsahR Internals",
+    "path": "folders/CrashR/CrsahR Internals.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_crashr",

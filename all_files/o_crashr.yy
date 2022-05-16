@@ -19,15 +19,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":62,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "CrashR",
-    "path": "folders/CrashR.yy",
+    "name": "CrsahR Internals",
+    "path": "folders/CrashR/CrsahR Internals.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_player",
+  "name": "o_crashr",
   "tags": [],
   "resourceType": "GMObject",
 }

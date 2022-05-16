@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "CrsahR Internals",
-    "path": "folders/CrashR/CrsahR Internals.yy",
+    "name": "CrashR",
+    "path": "folders/CrashR.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_crashr",
+  "name": "CRASHR_CONFIG",
   "tags": [],
   "resourceType": "GMScript",
 }
