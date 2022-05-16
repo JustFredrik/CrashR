@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-http_response = async_load[? "result"];
-show_debug_message(json);
+var _id = async_load[? "id"];
+if (_id = http_request_id){  // If the recieved http response is a response to the worker, then save the response.
+	http_response = async_load[? "http_status"];
+}
+
