@@ -1,6 +1,6 @@
 
-atempts = 0;																					// used to count amount of failed upload attempts. 
-max_atempts = CRASHR_MAX_CONNECT_ATTEMPT;		// Max count of attempts before ending upload attempts.
+attempts = 0;																					// used to count amount of failed upload attempts. 
+max_attempts = CRASHR_MAX_CONNECT_ATTEMPT;		// Max count of attempts before ending upload attempts.
 
 #region -- Get names of all files to upload -----------------------------------------------
 logs = [];

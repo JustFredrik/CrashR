@@ -4,7 +4,7 @@ if ( !os_is_network_connected()){ // Increment failed attempts if Internet conne
 	exit
 }
 
-if (attempts >= max_atempts){ // End uploading if too many failed attempts.
+if (attempts >= max_attempts){ // End uploading if too many failed attempts.
 	show_debug_message("CrashR :: Ending uploading... Too many failed attempts.")
 	instance_destroy();
 }
@@ -18,11 +18,10 @@ case "ready": // Prep file and send HTTP POST request.
 			_data = file_text_read_string(_file);
 			file_text_close(_file)
 			http_request_id = crashr_send_error_report(logs[i], _data);
-			show_debug_message(http_request_id);
 			http_response = "waiting"
 		}
 		catch(_exception){
-			atempts += 1;
+			attempts += 1;
 			show_debug_message("CrashR :: ERROR! Something went wrong with uploading crash report.")
 		}
 		break
