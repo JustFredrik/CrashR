@@ -1,9 +1,9 @@
-# CrashR
- A lightweight GameMaker Library for saving and uploading crash reports to RestAPI Databases
-___
-CrashR is a lightweight GameMaker library designed to override the default uncaught exception handler for GameMaker. CrashR will save and store customizable crash reports as JSON files both locally and to a developer specified remote database. 
+<p align="center"><img src="https://raw.githubusercontent.com/JustFredrik/CrashR/main/crashR_logo.png" style="display:block; margin:auto; width:400px"></p>
+<h4 align="center">A lightweight GameMaker Library for saving and uploading crash reports to RestAPI Databases</h4>
+<hr>
+<p align="justify">CrashR is a lightweight GameMaker library designed to override the default uncaught exception handler for GameMaker. CrashR will save and store customizable crash reports as JSON files both locally and to a developer specified remote database.</p>
 
-**Disclaimer:** most coutries have laws regarding user data collection and CrashR does not provide any buildt in legal user disclaimers or notifications to  allow developers to be compliant with data collection laws. Any developer using this are themselves responsible that their use of this tool is compliant with laws and regulations regarding user data collection.
+<p align="justify"><b>Disclaimer:</b> most coutries have laws regarding user data collection and CrashR does not provide any buildt in legal user disclaimers or notifications to  allow developers to be compliant with data collection laws. Any developer using this are themselves responsible that their use of this tool is compliant with laws and regulations regarding user data collection.</p>
 
 # Quick Setup
 **Step 1:** Download the `crashr.yymps` file from this reposetory.
